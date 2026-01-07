@@ -164,7 +164,7 @@ void treci()
 	start = s;
 	while (*start != '\0')
 	{
-		printf("%d\n", map[*start - 'a']);
+		//printf("%d\n", map[*start - 'a']);
 		*start = (*start + map[*start-'a']) % 'z';
 		start++;
 	}
@@ -177,3 +177,4 @@ int main()
 	//drugi();
 	//treci();
 }
+
